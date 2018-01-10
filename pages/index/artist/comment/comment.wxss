@@ -1,0 +1,18 @@
+/* pages/index/artist/comment/comment.wxss */
+ @import "/pages/template/comment-template/comment-template.wxss"; 
+.add{
+  height:300rpx;
+  width:100%;
+  border-top:1px solid #999;
+  border-bottom:1px solid #999;
+  line-height:300rpx;
+  margin:20rpx 0;
+}
+.add image{
+  height:45rpx;
+  width:45rpx;
+  border:1px solid #999;
+  vertical-align: middle;
+  margin-left:170rpx;
+  margin-right:170rpx;
+}

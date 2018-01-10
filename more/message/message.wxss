@@ -1,0 +1,27 @@
+/* pages/message/message.wxss */
+.a-tab{
+  height:90rpx;
+  display: flex;
+  justify-content:space-between;
+  line-height: 90rpx;
+  border-top:1px solid #999;
+  border-bottom:1px solid #999;
+}
+.a-left{
+  display: flex;
+  flex-direction:row;
+  margin-left:10rpx;
+}
+.a-right{
+  margin-right:10rpx;
+}
+.a-tab text{
+  padding:6rpx 23rpx;
+  border:1px solid #333;
+}
+.a-dynamic view{
+  height:90rpx;
+  line-height: 90rpx;
+  border-bottom:1px solid #999;
+  padding-left:20rpx;
+}

@@ -1,0 +1,11 @@
+image {
+  height: 400rpx;
+  width: 100%;
+  border: 1px solid red;
+  margin-top:20rpx;
+}
+
+text {
+  padding: 20rpx 10rpx;
+  line-height:60rpx;
+}

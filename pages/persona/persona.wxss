@@ -1,0 +1,59 @@
+/* pages/persona/persona.wxss */
+
+.a-artist {
+  height: 150rpx;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  line-height: 140rpx;
+  margin-bottom: 20rpx;
+}
+
+.a-host {
+  height: 100%;
+  padding-left: 20rpx;
+}
+
+.a-host image {
+  width: 90rpx;
+  height: 90rpx;
+  border: 1px solid #999;
+  vertical-align: middle;
+}
+
+.a-host text {
+  margin: 0 100rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+.a-return {
+  margin-right: 30rpx;
+  color: blue;
+}
+
+.a-list {
+  border-top: 1px solid #999;
+  margin-bottom: 20rpx;
+}
+
+.a-settled {
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1px solid #999;
+}
+
+.a-list image {
+  height: 50rpx;
+  width: 50rpx;
+  border: 1px solid #666;
+  vertical-align: middle;
+  margin: 0 20rpx;
+}
+
+.a-list view {
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1px solid #999;
+}

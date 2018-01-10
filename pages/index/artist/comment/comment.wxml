@@ -1,0 +1,13 @@
+<!--pages/index/artist/comment/comment.wxml-->
+<import src='/pages/template/comment-template/comment-template.wxml' />
+<view>
+  <view class='add'>
+    <image></image>
+    <text>添加新的名家点评</text>
+  </view>
+  <view>
+    <template is='commentTemplate' data='' />
+    <template is='commentTemplate' data='' />
+    <template is='commentTemplate' data='' />
+  </view>
+</view>

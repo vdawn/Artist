@@ -1,0 +1,13 @@
+<!--pages/index/artist/album/album.wxml-->
+<import src='/pages/template/album-template/album-template.wxml' />
+<view>
+  <view class='add'>
+    <image></image>
+    <text>添加新的照片</text>
+  </view>
+  <view>
+    <template is='albumTemplate' data='' />
+    <template is='albumTemplate' data='' />
+    <template is='albumTemplate' data='' />
+  </view>
+</view>

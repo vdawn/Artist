@@ -1,0 +1,18 @@
+/* pages/index/artist/prize/prize.wxss */
+ @import "/pages/template/prize-template/prize-template.wxss"; 
+.add{
+  height:300rpx;
+  width:100%;
+  border-top:1px solid #999;
+  border-bottom:1px solid #999;
+  line-height:300rpx;
+  margin:20rpx 0;
+}
+.add image{
+  height:45rpx;
+  width:45rpx;
+  border:1px solid #999;
+  vertical-align: middle;
+  margin-left:170rpx;
+  margin-right:170rpx;
+}

@@ -1,0 +1,15 @@
+<template name='collectTemplate'>
+  <navigator>
+    <view class='collection'>
+      <view class='pic'>
+        <image></image>
+      </view>
+      <view class='txt'>
+        <text>作品：祈祷</text>
+        <text>作家：刘益谦</text>
+        <text>价格：100000000</text>
+        <text>日期：不详</text>
+      </view>
+    </view>
+  </navigator>
+</template>

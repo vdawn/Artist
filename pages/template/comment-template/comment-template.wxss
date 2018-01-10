@@ -1,0 +1,41 @@
+.appraise{
+  height:70rpx;
+  line-height: 70rpx;
+  width:100%;
+  border-top:1px solid #999;
+  padding-left:20rpx;
+}
+.appraise text{
+  font-size:26rpx;
+  font-weight: bold;
+}
+.comment {
+  height: 260rpx;
+  margin-bottom: 25rpx;
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+  border: 1px solid #999;
+}
+
+.pic{
+  border: 1px solid red;
+  height: 100%;
+  width: 40%;
+}
+.pic image{
+  width:100%;
+  height:100%;
+
+}
+ 
+.txt {
+  height: 100%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+
+.txt text {
+  margin-top: 20rpx;
+}

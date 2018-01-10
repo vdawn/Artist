@@ -1,0 +1,160 @@
+/* pages/index/artist/artist.wxss */
+@import "../../template/opus-template/opus-template.wxss";
+
+.b-card {
+  height: 1202rpx;
+  border: 1px solid #999;
+  position: relative;
+}
+
+.b-vertical {
+  position: absolute;
+  top: 50rpx;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.b-column {
+  margin-left: 40rpx;
+  width: 24rpx;
+  line-height: 30rpx;
+}
+
+.b-text {
+  position: absolute;
+  top: 33.33%;
+  right: 54rpx;
+  width: 24rpx;
+}
+
+.b-triangle {
+  height: 40rpx;
+  width: 40rpx;
+  border: 1px solid red;
+  position: absolute;
+  bottom: 130rpx;
+  right: 50%;
+  margin-right: -20rpx;
+}
+
+.b-triangle image {
+  width: 10rpx;
+  height: 10rpx;
+}
+
+.b-name text {
+  font-size: 58rpx;
+  font-weight: bold;
+}
+
+.b-line {
+  width: 10rpx;
+  height: 45rpx;
+  border-left: 1px solid #666;
+  margin-top: 20rpx;
+}
+
+.b-replace {
+  position: absolute;
+  bottom: 30rpx;
+  right: 5rpx;
+}
+
+.b-background {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  border: 1px solid #999;
+  height: 500rpx;
+}
+
+.b-picture {
+  width: 160rpx;
+  height: 160rpx;
+  border: 1px solid #999;
+  margin: 30rpx auto;
+  border-radius: 50%;
+}
+
+.b-name {
+  margin-top: 20rpx;
+}
+
+.b-describe {
+  margin-top: 40rpx;
+}
+
+.b-edit {
+  position: absolute;
+  top: 30rpx;
+  right: 5rpx;
+}
+
+.b-grids {
+  display: flex;
+  background-color: #fff;
+  flex-wrap: wrap;
+  border-top: 1rpx solid #999;
+  border-left: 1rpx solid #999;
+  margin-top: 10rpx;
+}
+
+.b-grids .grid-item {
+  display: flex;
+  flex-direction: column;
+  width: 33.333333333333333333%;
+  height: 250rpx;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1rpx solid #999;
+  border-right: 1rpx solid #999;
+  box-sizing: border-box;
+}
+
+.b-grids image {
+  width: 80rpx;
+  height: 80rpx;
+  border: 1px solid #999;
+}
+
+.b-grids text {
+  font-size: 28rpx;
+  color: #242424;
+  margin-top: 20rpx;
+}
+.b-opus{
+  margin-bottom:200rpx;
+}
+.b-bottom{
+  position: relative;
+}
+.b-share {
+  height: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.b-share view {
+  height: 60rpx;
+  line-height: 60rpx;
+  width: 50%;
+  border: 1px solid #999;
+  text-align: center;
+}
+
+.b-modify {
+  position: absolute;
+  bottom:50rpx;
+  right: 50rpx;
+  width: 80rpx;
+  height: 80rpx;
+  border: 1px solid #999;
+  border-radius: 50%;
+}
+
+.b-modify image {
+  width: 100%;
+  height: 100%;
+}

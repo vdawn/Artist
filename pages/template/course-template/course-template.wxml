@@ -1,0 +1,18 @@
+<template name='courseTemplate'>
+  <navigator>
+    <view class='course'>
+
+      <view class='pic'>
+        <image></image>
+      </view>
+
+      <view class='txt'>
+        <view class='stage'>
+          <text class='period'>探索期</text>
+          <text>1980-1990年</text>
+        </view>
+        <text>更利于SEO优化。 以前的文档结构过度依赖div，HTML5推出了多种语义化标签，使得文档更利于阅读器等理解</text>
+      </view>
+    </view>
+  </navigator>
+</template>

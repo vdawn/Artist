@@ -1,0 +1,35 @@
+{
+  "pages": [
+   
+    "pages/index/index",            
+    "pages/index/artist/artist",               
+    "pages/index/artist/nickname/nickname",    
+    "pages/index/artist/brief/brief", 
+    "pages/index/artist/brief/resume/resume",        
+    "pages/index/artist/collection/collection",
+    "pages/index/artist/prize/prize",          
+    "pages/index/artist/comment/comment",      
+    "pages/index/artist/course/course",        
+    "pages/index/artist/album/album",
+    "pages/index/artist/release/release",
+    "pages/persona/persona"               
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "艺术馆"
+      },
+      {
+        "pagePath": "pages/persona/persona",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  }
+}

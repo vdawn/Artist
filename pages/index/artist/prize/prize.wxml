@@ -1,0 +1,13 @@
+<!--pages/index/artist/prize/prize.wxml-->
+<import src='/pages/template/prize-template/prize-template.wxml' />
+<view>
+  <view class='add'>
+    <image></image>
+    <text>添加新的获奖记录</text>
+  </view>
+  <view>
+    <template is='collectTemplate' data='' />
+    <template is='collectTemplate' data='' />
+    <template is='collectTemplate' data='' />
+  </view>
+</view>

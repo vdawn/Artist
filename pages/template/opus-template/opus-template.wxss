@@ -1,0 +1,12 @@
+.opus {
+  height: 500rpx;
+  margin-bottom: 20rpx;
+  border: 1px solid #666;
+  position: relative;
+}
+
+.opus text {
+  position: absolute;
+  bottom: 40rpx;
+  left: 20rpx;
+}

@@ -1,0 +1,48 @@
+<!--pages/persona/persona.wxml-->
+<!--查看我的主页-->
+<view>
+  <view class='a-artist'>
+    <view class='a-host'>
+      <image></image>
+      <text>达芬奇</text>
+    </view>
+    <view class="a-return">
+      <text>查看我的主页</text>
+    </view>
+  </view>
+  <!--我要入驻-->
+  <view class='a-settled a-list'>
+    <image></image>
+    <text>我是艺术家，我要入驻</text>
+  </view>
+  <!--我的。。。-->
+  <view class='a-card a-list'>
+    <view>
+      <image></image>
+      <text>我的名片</text>
+    </view>
+    <view>
+      <image></image>
+      <text>作品管理</text>
+    </view>
+    <view>
+      <image></image>
+      <text>艺术家档案</text>
+    </view>
+    <view>
+      <image></image>
+      <text>喜欢我的人</text>
+    </view>
+  </view>
+  <!--我的评论与喜欢-->
+  <view class='a-collection a-list'>
+    <view>
+      <image></image>
+      <text>我的评论</text>
+    </view>
+    <view>
+      <image></image>
+      <text>我喜欢的作品</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,36 @@
+/* pages/index/artist/nickname/nickname.wxss */
+.c-personal{
+  border-top: 1px solid #999;
+  border-left:1px solid #999;
+  border-right: 1px solid #999;
+}
+.space {
+  display: flex;
+  justify-content: space-between;
+  padding-left:30rpx;
+  padding-right:15rpx;
+}
+
+.c-portrait {
+  height: 200rpx;
+  line-height: 200rpx;
+  border-bottom: 1px solid #999;
+}
+.c-pic image {
+ width: 90rpx;
+  height: 90rpx;
+  border: 1px solid red;
+  vertical-align: middle;
+}
+
+.c-nickname {
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1px solid #999;
+}
+
+.c-autograph {
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1px solid #999;
+}

@@ -1,0 +1,19 @@
+<!--pages/index/artist/nickname/nickname.wxml-->
+<view>
+  <view class='c-personal'>
+    <view class='c-portrait space'>
+      <text>头像</text>
+      <view class='c-pic'>
+        <image></image>
+      </view>
+    </view>
+    <view class='c-nickname space'>
+      <text>昵称</text>
+      <text>达芬奇</text>
+    </view>
+    <view class='c-autograph space'>
+      <text>个性签名</text>
+      <text>迄今为止，最牛的画家，没有之一</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+<template name='opusTemplate'>
+  <navigator>
+    <view class='opus'>
+      <text>作品名</text>
+    </view>
+  </navigator>
+</template>

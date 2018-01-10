@@ -1,0 +1,13 @@
+<!--pages/index/artist/collection/collection.wxml-->
+<import src='/pages/template/collection-template/collection-template.wxml' />
+<view>
+  <view class='add'>
+    <image></image>
+    <text>添加新的收藏序列</text>
+  </view>
+  <view>
+    <template is='collectTemplate' data='' />
+    <template is='collectTemplate' data='' />
+    <template is='collectTemplate' data='' />
+  </view>
+</view>

@@ -1,0 +1,14 @@
+<!--pages/index/artist/course/course.wxml-->
+<import src='/pages/template/course-template/course-template.wxml' />
+<view>
+  <view class='add'>
+    <image></image>
+    <text>添加新的名家点评</text>
+  </view>
+  <view>
+    <template is='courseTemplate' data='' />
+    <template is='courseTemplate' data='' />
+    <template is='courseTemplate' data='' />
+  </view>
+</view>
+

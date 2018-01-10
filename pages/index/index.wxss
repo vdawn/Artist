@@ -1,0 +1,40 @@
+/**index.wxss**/
+
+.a-same {
+  display: flex;
+  flex-direction: column;
+}
+
+.a-like {
+  height: 80rpx;
+  line-height: 80rpx;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+  margin-bottom: 20rpx;
+  padding-left: 20rpx;
+}
+
+.a-like image {
+  height: 50rpx;
+  width: 50rpx;
+  border: 1px solid #666;
+  vertical-align: middle;
+}
+
+.a-like text {
+  vertical-align: middle;
+  margin-left: 30rpx;
+}
+
+.a-seen view, .a-mine {
+  height: 500rpx;
+   margin-bottom: 20rpx; 
+  border: 1px solid #666;
+  position: relative;
+}
+
+.a-seen view text, .a-mine text {
+  position: absolute;
+  bottom: 40rpx;
+  left: 20rpx;
+}

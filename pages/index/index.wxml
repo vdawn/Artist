@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view>
+  <view class='a-mine' bindtap='gtartist'>
+    <text>我的艺术馆</text>
+  </view>
+  <view class='a-same'>
+    <view class='a-like'>
+      <image></image>
+      <text>我喜欢的艺术家</text>
+    </view>
+    <view class='a-seen'>
+      <view bindtap='gtartist'>
+        <text>艺术家姓名</text>
+      </view>
+      <view bindtap='gtartist'>
+        <text>艺术家姓名</text>
+      </view>
+    </view>
+  </view>
+
+
+  <view class='a-same'>
+    <view class='a-like'>
+      <image></image>
+      <text>我看过的艺术家</text>
+    </view>
+    <view class='a-seen'>
+      <view bindtap='gtartist'>
+        <text>艺术家姓名</text>
+      </view>
+      <view bindtap='gtartist'>
+        <text>艺术家姓名</text>
+      </view>
+    </view>
+  </view>
+</view>

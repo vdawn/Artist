@@ -1,0 +1,20 @@
+/* pages/index/artist/brief/brief.wxss */
+
+.container {
+  padding: 20rpx 30rpx;
+}
+
+image {
+  height: 400rpx;
+  width: 100%;
+  border: 1px solid red;
+  margin:10px 0;
+}
+
+button {
+  height: 60rpx;
+  width: 660rpx;
+  line-height: 60rpx;
+  margin-top: 60rpx;
+  margin-bottom: 30rpx;
+}

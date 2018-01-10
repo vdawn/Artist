@@ -1,0 +1,86 @@
+<!--pages/index/artist/artist.wxml-->
+<import src='../../template/opus-template/opus-template.wxml' />
+<view class='container'>
+  <!--艺术家名片-->
+  <view class='b-card'>
+    <view class='b-vertical'>
+      <view class='b-column '>
+        <text>这部电了艺术家和乐器之间的关系数年中人突我们写了一封信</text>
+      </view>
+      <view class='b-column'>
+        <text>这探究了数年后他一封信艺术家和乐器的关系</text>
+      </view>
+      <view class='b-column'>
+        <text>中的突然给我们写了一封信究了艺系</text>
+      </view>
+    </view>
+    <view class='b-text'>
+      <text>艺术家姓名</text>
+    </view>
+    <view class='b-triangle'>
+      <image>三角</image>
+    </view>
+    <view class='b-replace'>
+      <text>更换封面</text>
+    </view>
+  </view>
+
+  <view class='b-introduce'>
+    <!--艺术家背景墙-->
+    <view class='b-background'>
+      <image class='b-picture'></image>
+      <text class='b-name'>达芬奇</text>
+      <text class='b-describe'>迄今为止最牛的画家，没有之一</text>
+      <text class='b-edit' bindtap='gtnickname'>编辑资料</text>
+    </view>
+    <!--六宫格-->
+    <view class="b-grids">
+      <navigator url="/pages/index/artist/brief/brief" class='grid-item'>
+        <image></image>
+        <text>简介</text>
+      </navigator>
+      <navigator url="/pages/index/artist/collection/collection" class='grid-item'>
+        <image></image>
+        <text>收藏序列</text>
+      </navigator>
+      <navigator url="/pages/index/artist/prize/prize" class='grid-item'>
+        <image></image>
+        <text>获奖记录</text>
+      </navigator>
+      <navigator url="/pages/index/artist/comment/comment" class='grid-item'>
+        <image></image>
+        <text>名家点评</text>
+      </navigator>
+      <navigator url="/pages/index/artist/course/course" class='grid-item'>
+        <image></image>
+        <text>艺术历程</text>
+      </navigator>
+      <navigator url="/pages/index/artist/album/album" class='grid-item'>
+        <image></image>
+        <text>相册</text>
+      </navigator>
+
+    </view>
+    <!--艺术家作品-->
+    <view class='b-opus'>
+      <template is='opusTemplate' data='' />
+      <template is='opusTemplate' data='' />
+      <template is='opusTemplate' data='' />
+    </view>
+
+    <view class='b-bottom'>
+      <!--分享给好友-->
+      <view class='b-share'>
+        <view>发送给好友</view>
+        <view>生成电子名片</view>
+        <!--修改按钮-->
+      </view>
+      <view class='b-modify' bindtap='gtrelease'>
+        <image></image>
+      </view>
+    </view>
+
+
+  </view>
+
+</view>

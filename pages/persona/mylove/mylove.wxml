@@ -1,0 +1,25 @@
+<!--pages/persona/mylove/mylove.wxml-->
+<import src='../../template/opus-template/opus-template.wxml' />
+<view>
+  <template name='myloveTemplate'>
+    <navigator>
+      <view class='line'>
+        <view class='author'>
+          <image class='pic'></image>
+          <text>{{name}}</text>
+        </view>
+        <view>
+          <image></image>
+        </view>
+
+      </view>
+    </navigator>
+  </template>
+
+  <template is='opusTemplate' data='' />
+  <template is='myloveTemplate' data='{{name}}' />
+  <template is='opusTemplate' data='' />
+  <template is='myloveTemplate' data='{{name}}' />
+  <template is='opusTemplate' data='' />
+  <template is='myloveTemplate' data='{{name}}' />
+</view>

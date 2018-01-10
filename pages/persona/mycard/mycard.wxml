@@ -1,0 +1,12 @@
+<!--pages/persona/mycard/mycard.wxml-->
+<view class='container'>
+  <view class='pic'>
+    <image></image>
+  </view>
+
+  <!--分享给好友-->
+    <view class='b-share'>
+      <view>发送给好友</view>
+      <view>保存到相册</view>
+    </view>
+</view>

@@ -1,0 +1,19 @@
+/* pages/persona/fans/fans.wxss */
+
+.container {
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+
+.fans {
+  border-bottom: 1px solid #999;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.fans image {
+  height: 48rpx;
+  width: 48rpx;
+  margin-right: 30rpx;
+  vertical-align: middle;
+}

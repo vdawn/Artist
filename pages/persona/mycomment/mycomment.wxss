@@ -1,0 +1,20 @@
+/* pages/persona/mycomment/mycomment.wxss */
+.mycomment{
+  display: flex;
+  justify-content: space-between;
+  height:100rpx;
+  line-height: 100rpx;
+  padding-left:30rpx;
+  padding-right:30rpx;
+  border-bottom:1px solid #999;
+}
+.name{
+  color:pink;
+  margin-left:10rpx;
+}
+.content{
+  height:350rpx;
+  padding:30rpx;
+  border-bottom:1px solid #999;
+  margin-bottom:90rpx;
+}

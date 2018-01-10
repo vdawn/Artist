@@ -1,0 +1,22 @@
+/* pages/persona/mylove/mylove.wxss */
+@import "../../template/opus-template/opus-template.wxss";
+
+.line {
+  height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  line-height: 100rpx;
+  margin-bottom:30rpx;
+}
+
+image {
+  height: 70rpx;
+  width: 70rpx;
+  border: 1px solid red;
+  vertical-align: middle;
+}
+.pic{
+  margin-right:20rpx; 
+}

@@ -1,0 +1,26 @@
+.container{
+  padding-bottom:70rpx;
+}
+.pic image{
+   height: 2000rpx;
+   width:100%;
+   border:1px solid red;
+   background-color:pink;
+}
+.b-share {
+  height: 60rpx;
+  display: flex;
+  width:100%;
+  justify-content: space-between;
+  position:fixed;
+  bottom:0;
+  background-color:skyblue;
+}
+
+.b-share view {
+  height: 60rpx;
+  line-height: 60rpx;
+  width: 50%;
+  border: 1px solid #999;
+  text-align: center;
+}

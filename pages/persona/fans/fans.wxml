@@ -1,0 +1,20 @@
+<!--pages/persona/fans/fans.wxml-->
+<view class='container'>
+  <template name='fansTemplate'>
+    <navigator>
+      <view class='fans'>
+         <image src='{{url}}'></image> 
+        <text>{{name}}</text>
+      </view>
+    </navigator>
+  </template>
+
+  <template is='fansTemplate' data='{{...zhangsan}}'></template>
+  <template is='fansTemplate' data='{{...lisi}}'></template>
+  <template is='fansTemplate' data='{{...wangwu}}'></template>
+  <template is='fansTemplate' data='{{...zhaoliu}}'></template>
+  <template is='fansTemplate' data='{{...zhangsa}}'></template>
+  <template is='fansTemplate' data='{{...lis}}'></template>
+  <template is='fansTemplate' data='{{...wangw}}'></template>
+  <template is='fansTemplate' data='{{...zhaoli}}'></template>
+</view>

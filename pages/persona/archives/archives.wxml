@@ -1,0 +1,89 @@
+<!--pages/persona/archives/archives.wxml-->
+<view>
+  <view class='website'>
+    <text>您也可以通过以下网址ttps:/aidu&wd=boots&oq=echarts&rsv_pq=b490c8bb0001c7e6&rsv_t=3fc7LonOSa7LwFrnzmPaMPqXsBLtW5VDu7XDD8SKC6JsihKb4ZmNM8A545Q&rqlang=cn&rsv_enter=0&inputT=1505&rsv_sug3=59&rsv_sug1=51&rsv_sug7=100&rsv_sug2=0&rsv_sug4=1505编辑资料
+    </text>
+  </view>
+  <!--网址以下-->
+  <view class='datum'>
+    <view class='basic repeat'>个人基本信息</view>
+    <view class='repeat'>
+      <text>头像</text>
+      <image></image>
+    </view>
+
+    <view class='repeat'>
+      <text>昵称</text>
+      <text>达芬奇</text>
+    </view>
+
+    <view class='repeat'>
+      <text>手机号</text>
+      <text>123456547657</text>
+    </view>
+
+    <view class='repeat'>
+      <text>出生年月</text>
+      <text>1223年0月</text>
+    </view>
+
+    <view class='repeat'>
+      <text>真实姓名</text>
+      <image></image>
+    </view>
+
+    <view class='repeat'>
+      <text>实名认证</text>
+      <image></image>
+    </view>
+
+    <view class='repeat'>
+      <text>毕业院校</text>
+      <image></image>
+    </view>
+
+    <view class='basic repeat'>
+      艺术家主页展示资料
+    </view>
+    <view class='repeat'>
+      <text>签名</text>
+      <text>迄今为止最牛的画家，没有之一</text>
+    </view>
+
+
+    <view class='repeat'>
+      <text>封面管理</text>
+      <image></image>
+    </view>
+
+    <view class='repeat'>
+      <text>简介</text>
+      <image></image>
+    </view>
+
+    <view class='repeat'>
+      <text>收藏序列</text>
+      <image></image>
+    </view>
+
+    <view class='repeat'>
+      <text>获奖记录</text>
+      <image></image>
+    </view>
+
+    <view class='repeat'>
+      <text>名家点评</text>
+      <image></image>
+    </view>
+
+    <view class='repeat'>
+      <text>艺术历程</text>
+      <image></image>
+    </view>
+
+    <view class='repeat'>
+      <text>相册</text>
+      <image></image>
+    </view>
+  </view>
+</view>

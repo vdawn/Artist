@@ -1,6 +1,6 @@
 .opus {
   height: 500rpx;
-  margin-bottom: 20rpx;
+  margin-top: 20rpx;
   border: 1px solid #666;
   position: relative;
 }

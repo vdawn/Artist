@@ -1,0 +1,13 @@
+<template name='starTemplate'>
+  <navigator>
+    <view class='opus'>
+      <text>作品名</text>
+
+
+       <view class='star'>
+        <image></image>
+      </view> 
+    </view>
+
+  </navigator>
+</template>

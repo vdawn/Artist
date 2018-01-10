@@ -1,52 +1,13 @@
-// pages/persona/persona.js
+// pages/persona/mylove/mylove.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    name:'梵高'
   },
-  gtartist:function(){
-    wx.navigateTo({
-      url: '../index/artist/artist',
-    })
-  },
-  gtsettled: function () {
-    wx.navigateTo({
-      url: '../persona/settled/settled',
-    })
-  },
-  gtmycard: function () {
-    wx.navigateTo({
-      url: '../persona/mycard/mycard',
-    })
-  },
-  gtmanage: function () {
-    wx.navigateTo({
-      url: '../persona/manage/manage',
-    })
-  },
-  gtarchives: function () {
-    wx.navigateTo({
-      url: '../persona/archives/archives',
-    })
-  },
-  gtfans: function () {
-    wx.navigateTo({
-      url: '../persona/fans/fans',
-    })
-  },
-  gtmycomment: function () {
-    wx.navigateTo({
-      url: '../persona/mycomment/mycomment',
-    })
-  },
-  gtmylove: function () {
-    wx.navigateTo({
-      url: '../persona/mylove/mylove',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

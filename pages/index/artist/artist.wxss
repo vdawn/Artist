@@ -131,7 +131,7 @@
   position: relative;
 }
 .b-share {
-  height: 20rpx;
+  height:60rpx;
   display: flex;
   justify-content: space-between;
 }
@@ -146,7 +146,7 @@
 
 .b-modify {
   position: absolute;
-  bottom:50rpx;
+  bottom:120rpx;
   right: 50rpx;
   width: 80rpx;
   height: 80rpx;

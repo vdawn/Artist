@@ -12,7 +12,14 @@
     "pages/index/artist/course/course",        
     "pages/index/artist/album/album",
     "pages/index/artist/release/release",
-    "pages/persona/persona"               
+    "pages/persona/persona",
+    "pages/persona/settled/settled",
+    "pages/persona/mycard/mycard",
+    "pages/persona/manage/manage",
+    "pages/persona/archives/archives",
+    "pages/persona/fans/fans",
+    "pages/persona/mycomment/mycomment",
+    "pages/persona/mylove/mylove"
   ],
   "tabBar": {
     "list": [

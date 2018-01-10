@@ -1,0 +1,19 @@
+<!--pages/persona/manage/manage.wxml-->
+ <import src='../../template/star-template/star-template.wxml' /> 
+<view>
+  <view class='manage'>
+    <view class='all'>全部</view>
+    <view class='only'>星标</view>
+  </view>
+
+   <view class='block'>
+    <template is='starTemplate' data='' />
+    <template is='starTemplate' data='' />
+    <template is='starTemplate' data='' />
+  </view> 
+
+  <view class='new'>
+     <view class='add'>新增</view>
+     <view class='edit'>编辑</view>
+  </view>
+</view>

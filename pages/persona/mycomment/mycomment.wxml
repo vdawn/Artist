@@ -1,0 +1,18 @@
+<!--pages/persona/mycomment/mycomment.wxml-->
+<view>
+   <template name='mycommentTemplate'>
+      <navigator>
+        <view class='mycomment'>
+           <text>我评论了作品<text class='name'>{{name}}</text></text>
+           <text>{{date}}</text>
+        </view>
+        <view class='content'>
+           <text>{{content}}</text>
+        </view>
+      </navigator>
+   </template>
+
+   <template is='mycommentTemplate' data='{{...comment1}}'></template>
+   <template is='mycommentTemplate' data='{{...comment1}}'></template>
+   <template is='mycommentTemplate' data='{{...comment1}}'></template>
+</view>

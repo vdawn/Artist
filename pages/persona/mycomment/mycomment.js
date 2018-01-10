@@ -1,52 +1,13 @@
-// pages/persona/persona.js
+// pages/persona/mycomment/mycomment.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    comment1: { name: '蒙娜丽莎', date: '2017-12-21 10:25：55', content:'宠物的高情感附加值使得养宠家庭更倾向于把宠物当做精神寄托和家庭成员，甚至更多人把汪星人喵星人当成“孩子”养，提升这些萌萌哒的小生物的生活品质，也成为铲屎官们的诉求。这次冰雪漫跑节，爱宠游不仅给“孩子们”一次丰富多彩的活动，也创造了萌宠和萌娃之间的桥梁，让小朋友通过接触宠物接受爱心教育，这也许是育儿家庭渴望从活动中得到的东西'}
   },
-  gtartist:function(){
-    wx.navigateTo({
-      url: '../index/artist/artist',
-    })
-  },
-  gtsettled: function () {
-    wx.navigateTo({
-      url: '../persona/settled/settled',
-    })
-  },
-  gtmycard: function () {
-    wx.navigateTo({
-      url: '../persona/mycard/mycard',
-    })
-  },
-  gtmanage: function () {
-    wx.navigateTo({
-      url: '../persona/manage/manage',
-    })
-  },
-  gtarchives: function () {
-    wx.navigateTo({
-      url: '../persona/archives/archives',
-    })
-  },
-  gtfans: function () {
-    wx.navigateTo({
-      url: '../persona/fans/fans',
-    })
-  },
-  gtmycomment: function () {
-    wx.navigateTo({
-      url: '../persona/mycomment/mycomment',
-    })
-  },
-  gtmylove: function () {
-    wx.navigateTo({
-      url: '../persona/mylove/mylove',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,6 +1,5 @@
 {
   "pages": [
-   
     "pages/index/index",            
     "pages/index/artist/artist",               
     "pages/index/artist/nickname/nickname",  
@@ -18,11 +17,15 @@
     "pages/persona/settled/settled",
     "pages/persona/mycard/mycard",
     "pages/persona/manage/manage",
+    "pages/persona/manage/details/details",
     "pages/persona/archives/archives",
     "pages/persona/fans/fans",
     "pages/persona/mycomment/mycomment",
     "pages/persona/mylove/mylove",
-    "pages/persona/news/news"
+    "pages/persona/news/news",
+
+
+    "pages/other/other"
   ],
   "tabBar": {
     "list": [

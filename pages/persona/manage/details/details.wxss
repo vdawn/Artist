@@ -1,0 +1,14 @@
+/* pages/persona/manage/details/details.wxss */
+page {
+  background-color: #f0f0f0;
+}
+
+.swiper {
+  height: 380rpx;
+}
+
+.swiper .img {
+  height: 100%;
+  width: 100%;
+  border:1px solid #999;
+}

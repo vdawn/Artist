@@ -1,0 +1,76 @@
+/* pages/other/other.wxss */
+
+page {
+  background-color: #999;
+}
+
+.swiper {
+  height: 380rpx;
+  border: 1px solid #333;
+  background-color: #fff;
+}
+
+.swiper .img {
+  height: 100%;
+  width: 100%;
+}
+
+.introduce {
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+  background-color: #fff;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
+
+.block {
+  height: 80rpx;
+}
+
+.both {
+  display: flex;
+  justify-content: space-between;
+   background-color: #fff;
+}
+
+.both image {
+  width: 60rpx;
+  height: 60rpx;
+  border: 1px solid red;
+}
+
+.audio {
+  height: 100rpx;
+  background-color: #fff;
+  line-height: 100rpx;
+  margin-bottom: 30rpx;
+}
+
+.audio image {
+  height: 50rpx;
+  width: 50rpx;
+  border: 1px solid #666;
+  vertical-align: middle;
+  margin: 0 20rpx;
+}
+
+.create {
+  height: 80rpx;
+  border-bottom: 1px solid #333;
+  line-height: 80rpx;
+  padding-left:30rpx;
+  padding-right:30rpx;
+}
+.txt{
+ background-color: #fff;
+}
+.txt view{
+  padding:30rpx;
+  font-size: 26rpx;
+}
+.gap{
+  margin-bottom:30rpx;
+}

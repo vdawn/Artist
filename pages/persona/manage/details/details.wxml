@@ -1,0 +1,10 @@
+<!--pages/persona/manage/details/details.wxml-->
+<!-- <view>
+  <swiper class='swiper'>
+  <block wx:for="{{slides}}" wx:key="{{id}}">
+    <swiper-item>
+      <image src="" class="img" mode='aspectFill'></image>
+    </swiper-item>
+  </block>
+</swiper>
+</view> -->

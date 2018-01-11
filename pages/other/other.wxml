@@ -1,0 +1,51 @@
+<!--pages/other/other.wxml-->
+<view>
+  <!-- 轮播图 -->
+  <swiper class='swiper'>
+    <block wx:for="{{slides}}" wx:key="{{id}}">
+      <swiper-item>
+        <image src="/image/1.png" class="img" mode='aspectFill'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- 描述 -->
+  <view class='introduce'>
+    <view class='both'>
+      <view class='name'>
+        <text class='works'>作品名称</text>
+        <text class='author'>作者名</text>
+      </view>
+      <image></image>
+    </view>
+    <text>油画/80cm*80cm/布面/2017/已装裱/藏于中央美术馆</text>
+  </view>
+  <!-- 音频 -->
+  <view class='audio'>
+    <image></image>
+    <text>艺术家创作心声</text>
+  </view>
+
+  <!-- 手记  -->
+  <view class='gap'>
+    <view class='both create'>
+      <text>创作手记</text>
+      <text>详情</text>
+    </view>
+    <view class='txt'>
+      <view>在中国绘画史上，明代画风迭变，画派繁兴。在绘画的门类、题材方面，传统的人物画、山水画、花岛画盛行，文人墨戏画的梅、兰、竹及杂画等也相当发达。在艺术流派方面，涌现出众多以地区为中心、或以风格相区别的两大派系。在画法方面，水墨山水和写意花鸟勃兴，成就显著，人物画也出现了变形人物、墨骨敷彩肖像等独特的新面貌。
+      </view>
+    </view>
+  </view>
+
+  <!-- 评述  -->
+  <view class='gap'>
+    <view class='both create'>
+      <text>邵大箴评述</text>
+      <text>更多</text>
+    </view>
+    <view class='txt'>
+      <view>明代人物画的发展首先经历了明代前期 院体浙派的写实风格和纪实主题，有宋代院 体的艺术风貌。至中期，吴门（今江苏苏州） 一带的文人画家文征明、唐寅等把对人物画 的兴趣集中到仕女画上。明代人物画创 作形成了相当规模的文人画家群、稳定的宫 廷画家群和无处不在的民间艺匠画家群，从 各个方面展示了他们
+      </view>
+    </view>
+  </view>
+</view>

@@ -4,20 +4,19 @@
     <view class='all'>全部</view>
     <view class='only'>星标</view>
   </view>
-<!-- 模板 -->
-<template name='starTemplate'>
-  <navigator>
-    <view class='opus'>
-      <text>作品名</text>
+  <!-- 模板 -->
+  <template name='starTemplate'>
+    <navigator>
+      <view class='opus'>
+        <text>作品名</text>
 
+        <view class='star'>
+          <image></image>
+        </view>
+      </view>
 
-       <view class='star'>
-        <image></image>
-      </view> 
-    </view>
-
-  </navigator>
-</template>
+    </navigator>
+  </template>
   <view class='block'>
     <template is='starTemplate' data='' />
     <template is='starTemplate' data='' />

@@ -1,4 +1,4 @@
-// pages/persona/manage/manage.js
+// pages/persona/manage/details/details.js
 Page({
 
   /**
@@ -7,16 +7,12 @@ Page({
   data: {
   
   },
-  gtdetails:function(){
-   wx.navigateTo({
-     url: '../manage/details/details',
-   })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-   
+  
   },
 
   /**

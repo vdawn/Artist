@@ -1,23 +1,20 @@
-// pages/persona/manage/manage.js
+// pages/other/other.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    
   },
-  gtdetails:function(){
-   wx.navigateTo({
-     url: '../manage/details/details',
-   })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-   
+  onLoad: function () {
+ 
   },
+     
 
   /**
    * 生命周期函数--监听页面初次渲染完成

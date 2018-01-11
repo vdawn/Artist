@@ -21,18 +21,12 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 0,
 			"list": [
 				{
-					"id": -1,
+					"id": 0,
 					"name": "l临时",
-					"pathName": "pages/index/artist/brief/resume/resume",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "l临时",
-					"pathName": "pages/index/artist/nickname/modifyname/modifyname",
+					"pathName": "pages/other/other",
 					"query": ""
 				}
 			]

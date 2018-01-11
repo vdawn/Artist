@@ -7,11 +7,11 @@
         <image></image>
       </view>
     </view>
-    <view class='c-nickname space'>
+    <view class='c-nickname space' bindtap='gtmodifyname'>
       <text>昵称</text>
       <text>达芬奇</text>
     </view>
-    <view class='c-autograph space'>
+    <view class='c-autograph space' bindtap='gtautograph'>
       <text>个性签名</text>
       <text>迄今为止，最牛的画家，没有之一</text>
     </view>

@@ -1,4 +1,4 @@
-// pages/index/artist/nickname/nickname.js
+// pages/index/artist/nickname/modifyname/modifyname.js
 Page({
 
   /**
@@ -7,16 +7,7 @@ Page({
   data: {
   
   },
-  gtmodifyname:function(){
-    wx.navigateTo({
-      url: '../nickname/modifyname/modifyname',
-    })
-  },
-  gtautograph: function () {
-    wx.navigateTo({
-      url: '../nickname/autograph/autograph',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

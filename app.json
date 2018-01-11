@@ -3,7 +3,9 @@
    
     "pages/index/index",            
     "pages/index/artist/artist",               
-    "pages/index/artist/nickname/nickname",    
+    "pages/index/artist/nickname/nickname",  
+    "pages/index/artist/nickname/modifyname/modifyname", 
+    "pages/index/artist/nickname/autograph/autograph", 
     "pages/index/artist/brief/brief", 
     "pages/index/artist/brief/resume/resume",        
     "pages/index/artist/collection/collection",
@@ -19,7 +21,8 @@
     "pages/persona/archives/archives",
     "pages/persona/fans/fans",
     "pages/persona/mycomment/mycomment",
-    "pages/persona/mylove/mylove"
+    "pages/persona/mylove/mylove",
+    "pages/persona/news/news"
   ],
   "tabBar": {
     "list": [

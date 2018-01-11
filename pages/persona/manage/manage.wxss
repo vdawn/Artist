@@ -1,5 +1,4 @@
 /* pages/persona/manage/manage.wxss */
-@import "../../template/star-template/star-template.wxss";
 
 .manage {
   height: 60rpx;
@@ -32,3 +31,25 @@
   margin-top: 50rpx;
   margin-bottom: 30rpx;
 }
+/* 模板 */
+.opus {
+  height: 500rpx;
+  margin-bottom: 20rpx;
+  border: 1px solid #666;
+  position: relative;
+}
+.opus text {
+  position: absolute;
+  bottom: 40rpx;
+  left: 20rpx;
+}
+ .star{
+ position:absolute; 
+  top:60rpx; 
+ right:60rpx;
+}
+ .star image{
+  width:60rpx;
+  height:60rpx;
+  border:1px solid red;
+}  

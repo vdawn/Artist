@@ -3,6 +3,7 @@
   <view class='a-mine' bindtap='gtartist'>
     <text>我的艺术馆</text>
   </view>
+  
   <view class='a-same'>
     <view class='a-like'>
       <image></image>

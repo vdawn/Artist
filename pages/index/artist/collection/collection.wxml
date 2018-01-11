@@ -1,10 +1,26 @@
 <!--pages/index/artist/collection/collection.wxml-->
-<import src='/pages/template/collection-template/collection-template.wxml' />
 <view>
   <view class='add'>
     <image></image>
     <text>添加新的收藏序列</text>
   </view>
+  <!--收藏模板-->
+  <template name='collectTemplate'>
+  <navigator>
+    <view class='collection'>
+      <view class='pic'>
+        <image></image>
+      </view>
+      <view class='txt'>
+        <text>作品：祈祷</text>
+        <text>作家：刘益谦</text>
+        <text>价格：100000000</text>
+        <text>日期：不详</text>
+      </view>
+    </view>
+  </navigator>
+</template>
+
   <view>
     <template is='collectTemplate' data='' />
     <template is='collectTemplate' data='' />

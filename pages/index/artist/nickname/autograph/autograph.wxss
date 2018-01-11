@@ -1,0 +1,14 @@
+/* pages/index/artist/nickname/autograph/autograph.wxss */
+input{
+  height:70rpx;
+  width:100%;
+  border:1px solid #999;
+  padding-left:30rpx;
+  margin-top:30rpx; 
+}
+button{
+  margin-top:100rpx;
+  height:70rpx;
+  width:500rpx;
+  line-height:70rpx; 
+}

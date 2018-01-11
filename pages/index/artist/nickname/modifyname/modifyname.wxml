@@ -1,0 +1,5 @@
+<!--pages/index/artist/nickname/modifyname/modifyname.wxml-->
+<view>
+  <input type="text" placeholder="达芬奇"></input>
+  <button>保存</button>
+</view>

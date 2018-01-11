@@ -47,6 +47,11 @@ Page({
       url: '../persona/mylove/mylove',
     })
   },
+  gtnews: function () {
+    wx.navigateTo({
+      url: '../persona/news/news',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

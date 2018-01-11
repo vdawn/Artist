@@ -1,10 +1,25 @@
 <!--pages/index/artist/comment/comment.wxml-->
-<import src='/pages/template/comment-template/comment-template.wxml' />
 <view>
   <view class='add'>
     <image></image>
     <text>添加新的名家点评</text>
   </view>
+  <!-- 模板 -->
+  <template name='commentTemplate'>
+  <navigator>
+    <view class='appraise'>
+      <text>邵大箴评述</text>
+    </view>
+    <view class='comment'>
+      <view class='pic'>
+        <image></image>
+      </view>
+      <view class='txt'>
+        <text>摘要: 老听一些大牛说：“想要提升自己的水平就去写博客”，所以我也蠢蠢欲动了； 初次尝试写博客是在工作中遇到的问题都贴上面可以</text>  
+      </view>
+    </view>
+  </navigator>
+</template>
   <view>
     <template is='commentTemplate' data='' />
     <template is='commentTemplate' data='' />

@@ -1,0 +1,6 @@
+<!--pages/index/artist/nickname/autograph/autograph.wxml-->
+<view>
+  <input type="text" placeholder="迄今为止最牛的画家，没有之一"></input>
+  <button>保存</button>
+</view>
+

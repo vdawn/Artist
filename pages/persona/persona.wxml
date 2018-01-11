@@ -44,5 +44,10 @@
       <image></image>
       <text>我喜欢的作品</text>
     </view>
+
+    <view class='news a-list' bindtap='gtnews'>
+       <image></image>
+       <text>消息中心</text>
+    </view>
   </view>
 </view>

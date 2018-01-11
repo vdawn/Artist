@@ -1,10 +1,18 @@
 <!--pages/index/artist/album/album.wxml-->
-<import src='/pages/template/album-template/album-template.wxml' />
 <view>
   <view class='add'>
     <image></image>
     <text>添加新的照片</text>
   </view>
+  <!-- 模板 -->
+  <template name='albumTemplate'>
+  <navigator>
+    <view>
+      <image></image>
+    </view>
+    <text>楼主务必选择一个最佳答案（点击“设为最佳”按钮</text>
+  </navigator>
+</template>
   <view>
     <template is='albumTemplate' data='' />
     <template is='albumTemplate' data='' />

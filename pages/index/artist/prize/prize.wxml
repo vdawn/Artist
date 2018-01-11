@@ -1,10 +1,24 @@
 <!--pages/index/artist/prize/prize.wxml-->
-<import src='/pages/template/prize-template/prize-template.wxml' />
 <view>
   <view class='add'>
     <image></image>
     <text>添加新的获奖记录</text>
   </view>
+  <!-- 获奖记录模板 -->
+  <template name='collectTemplate'>
+  <navigator>
+    <view class='collection'>
+      <view class='pic'>
+        <image></image>
+      </view>
+      <view class='txt'>
+        <text>作品：祈祷</text>
+        <text>奖项：势感知系统荣获“年度最佳大数据应用平台”奖。</text>
+        <text>日期：不详</text>
+      </view>
+    </view>
+  </navigator>
+</template>
   <view>
     <template is='collectTemplate' data='' />
     <template is='collectTemplate' data='' />

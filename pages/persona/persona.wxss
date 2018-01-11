@@ -57,3 +57,6 @@
   line-height: 100rpx;
   border-bottom: 1px solid #999;
 }
+.news{
+  margin-top:20rpx;
+}
